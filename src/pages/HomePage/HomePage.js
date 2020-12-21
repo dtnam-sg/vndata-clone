@@ -4,6 +4,7 @@ import "./HomePage.scss"
 import Header from '../../components/Header/Header';
 import CartList from '../Cart/Cart';
 import Products from '../Products/Products';
+import ProductPricing from '../Components/ProductPricing/ProductPricing';
 
 HomePage.propTypes = {
 
@@ -15,6 +16,7 @@ function HomePage(props) {
             <Header />
             <CartList />
             <Products />
+            <ProductPricing />
         </div>
     );
 }

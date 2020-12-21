@@ -66,3 +66,31 @@ export const PRODUCTS_RIGHT = [{
     title: "Backup & Restore",
     desc: "Dịch vụ sao lưu dữ liệu lưu trữ độc lập với chi phí tiết kiệm giúp dữ liệu của bạn luôn an toàn trước các rủi ro."
 },]
+export const CART_PRICING = [{
+    id: 1,
+    img: Images.PRICING,
+    title: "Cloud Server",
+    desc: "Máy chủ ảo Openstack",
+    priceFrom: "Giá chỉ từ",
+    price: "160,000 VNĐ",
+    text: "Đăng ký ngay",
+    buttonStyle: "btn--primary"
+}, {
+    id: 2,
+    img: Images.PRICING_2,
+    title: "Dịch vụ CDN",
+    desc: "Dịch vụ CDN, transcode",
+    priceFrom: "Giá chỉ từ",
+    price: "900/TB VNĐ",
+    text: "Đăng ký ngay",
+    buttonStyle: "btn--white"
+}, {
+    id: 3,
+    img: Images.SERVICE,
+    title: "Thuê Server",
+    desc: "Thuê máy chủ vật lý riêng",
+    priceFrom: "Giá chỉ từ",
+    price: "1,900,000 VNĐ",
+    text: "Đăng ký ngay",
+    buttonStyle: "btn--primary"
+},]
