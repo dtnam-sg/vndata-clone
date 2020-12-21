@@ -1,0 +1,24 @@
+.why-choose-us {
+  text-align: center;
+  padding: 0 30px;
+  &__cart-list {
+    font-family: "Be Vietnam", sans-serif;
+    display: flex;
+    padding-bottom: 85px;
+  }
+
+  &__img {
+    margin-bottom: 22px;
+  }
+  &__title {
+    font-size: 1.41176rem;
+    font-weight: 500;
+    margin-bottom: 16px;
+  }
+  &__desc {
+    color: #5a5a5a;
+  }
+}
+.mt-90 {
+  margin-top: 90px;
+}

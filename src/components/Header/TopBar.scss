@@ -1,0 +1,26 @@
+.wraper {
+  font-family: "Be Vietnam", sans-serif;
+  background-color: rgb(21, 9, 94);
+  color: #fff;
+  font-size: 0.88235rem;
+  padding: 15px 0;
+}
+.top-bar {
+  display: flex;
+  margin-left: -8px;
+  &__left {
+    & li:first-child {
+      margin-right: 58px;
+    }
+  }
+  &__right {
+    justify-content: flex-end;
+    margin-left: -12px;
+    & li:first-child {
+      margin-right: 35px;
+    }
+  }
+}
+li i {
+  padding-right: 8px;
+}

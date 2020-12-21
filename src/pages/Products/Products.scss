@@ -1,0 +1,45 @@
+.product {
+  font-family: "Be Vietnam", sans-serif;
+  margin-top: 10px;
+  display: flex;
+  margin-left: -6px;
+  &-left {
+    padding-right: 50px;
+  }
+  &-center {
+    margin-left: -5px;
+    margin-right: 7px;
+  }
+  &-right {
+    padding-left: 41px;
+    padding-right: 8px;
+  }
+  &-item {
+    display: flex;
+    &__img img {
+      width: 29px;
+      height: 29px;
+    }
+    &__box-content {
+      text-align: start;
+      margin-bottom: 20px;
+      & h3 {
+        color: #1e1e1e;
+        font-size: 1.17647rem;
+        font-weight: 600;
+        margin-bottom: 10px;
+      }
+      & p {
+        color: #70799f;
+        line-height: 1.647;
+        letter-spacing: -0.4px;
+      }
+    }
+  }
+  &-image {
+    width: 367px;
+  }
+}
+.w-33 {
+  width: calc(100% / 3);
+}
