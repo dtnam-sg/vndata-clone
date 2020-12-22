@@ -15,8 +15,8 @@ export const MAIN_PRODUCTS = {
     subTitle: "Nổi Bật",
 }
 export const PARTNER = {
-    title: "Các Sản Phẩm",
-    subTitle: "Nổi Bật",
+    title: "Đối tác ",
+    subTitle: "tin dùng",
 }
 export const CARTS = [{
     id: 1,
@@ -94,3 +94,45 @@ export const CART_PRICING = [{
     text: "Đăng ký ngay",
     buttonStyle: "btn--primary"
 },]
+
+export const FOOTER_MAIN = [
+    {
+        title: "Dịch vụ",
+        content: "Cloud Server",
+        content1: "Dedicated Server",
+        content2: "Colocation Server"
+    }, {
+        title: "Giải pháp",
+        content: "CDN – Transcode",
+        content1: "Quản lý tài khoản",
+        content2: "Hỗ trợ kỹ thuật"
+    }, {
+        title: "Thông tin",
+        content: "Thông báo",
+        content1: "Tuyển dụng",
+        content2: "Quy định sử dụng"
+    }
+]
+export const PARTNER_IMG = [
+    Images.LOGO_YEAH1,
+    Images.LOGO_VIEON,
+    Images.LOGO_DQ,
+    Images.LOGO_KIOT,
+    Images.LOGO_DONGA,]
+
+//     Dịch vụ
+// 
+// 
+// 
+// 
+// 
+// 
+// 
+// Thông tin
+// 
+// 
+// 
+// 
+// 
+// 
+// 

@@ -1,0 +1,12 @@
+.partner {
+  padding: 40px;
+  display: flex;
+  &__img {
+    width: 100%;
+  }
+}
+.slick-slide img {
+  width: 250px;
+  min-height: 170px;
+  box-shadow: 5px 10px 15px 0 rgba(0, 0, 0, 0.1);
+}

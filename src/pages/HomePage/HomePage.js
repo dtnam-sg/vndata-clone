@@ -1,14 +1,13 @@
 import React from 'react';
-import PropTypes from 'prop-types';
 import "./HomePage.scss"
 import Header from '../../components/Header/Header';
-import CartList from '../Cart/Cart';
-import Products from '../Products/Products';
 import ProductPricing from '../Components/ProductPricing/ProductPricing';
+import CartList from '../Components/Cart/Cart';
+import Products from '../Components/Products/Products';
+import Partner from '../Components/Partner/Partner';
+import Footer from '../Components/Footer/Footer';
 
-HomePage.propTypes = {
-
-};
+HomePage.propTypes = {};
 
 function HomePage(props) {
     return (
@@ -17,6 +16,8 @@ function HomePage(props) {
             <CartList />
             <Products />
             <ProductPricing />
+            {/* <Partner /> */}
+            <Footer />
         </div>
     );
 }

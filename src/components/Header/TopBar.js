@@ -15,13 +15,13 @@ function TopBar(props) {
                     <Col md="6">
                         <ul className="top-bar top-bar__left">
                             <li><i className="fas fa-phone"></i>0971-05-4444</li>
-                            <li><i class="far fa-envelope"></i>info@vndata.vn</li>
+                            <li><i className="far fa-envelope"></i>info@vndata.vn</li>
                         </ul>
                     </Col>
                     <Col md="6">
                         <ul className="top-bar top-bar__right">
                             <li><i className="fas fa-phone"></i>Đăng nhập</li>
-                            <li><i class="far fa-envelope"></i>Đăng ký</li>
+                            <li><i className="far fa-envelope"></i>Đăng ký</li>
                         </ul>
                     </Col>
                 </Row>

@@ -1,12 +1,8 @@
 import React from 'react';
-import PropTypes from 'prop-types';
 import "./CartList.scss"
 import { Container } from 'reactstrap';
-import Title from '../../components/Title/Title';
-import { HEADER, CARTS } from '../../constant/global';
-CartList.propTypes = {
-
-};
+import Title from '../../../components/Title/Title';
+import { HEADER, CARTS } from '../../../constant/global';
 
 
 const Cart = ({ img, title, desc }) => {
@@ -28,7 +24,7 @@ function CartList() {
             <div className="why-choose-us__cart-list">
                 {
                     CARTS.map((cart, idx) => (
-                        <Cart img={cart.img} key={idx.id} title={cart.title} desc={cart.desc} />
+                        <Cart img={cart.img} key={`cart-${cart.id}`} title={cart.title} desc={cart.desc} />
                     ))
                 }
             </div>

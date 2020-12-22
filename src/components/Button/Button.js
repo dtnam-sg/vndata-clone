@@ -3,7 +3,6 @@ import PropTypes from 'prop-types';
 import "./Button.scss"
 
 Button.propTypes = {
-    onClick: PropTypes.func,
     text: PropTypes.string,
     buttonStyle: PropTypes.string
 };
