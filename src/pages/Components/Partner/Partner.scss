@@ -1,12 +1,29 @@
 .partner {
-  padding: 40px;
-  display: flex;
-  &__img {
-    width: 100%;
+  font-family: "Be Vietnam", sans-serif;
+  padding: 35px 203px;
+  &-head {
+    margin-top: 23px;
+    margin-bottom: 85px;
+  }
+  &-img {
+    padding: 45px 0;
+    width: 250px;
+    height: 170px;
+    box-shadow: 5px 10px 15px 0 rgba(0, 0, 0, 0.1);
   }
 }
-.slick-slide img {
-  width: 250px;
-  min-height: 170px;
-  box-shadow: 5px 10px 15px 0 rgba(0, 0, 0, 0.1);
+.slick-slide {
+  margin-right: 10px;
+  margin-bottom: -80px;
+  & img {
+    transition: all 0.3s ease;
+    filter: grayscale(100%);
+    opacity: 0.66;
+    height: 80px;
+    &:hover {
+      cursor: pointer;
+      filter: grayscale(0%);
+      opacity: 1;
+    }
+  }
 }

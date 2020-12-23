@@ -16,7 +16,7 @@ function HomePage(props) {
             <CartList />
             <Products />
             <ProductPricing />
-            {/* <Partner /> */}
+            <Partner />
             <Footer />
         </div>
     );

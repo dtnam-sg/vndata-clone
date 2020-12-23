@@ -10,31 +10,39 @@ function Partner(props) {
         infinite: true,
         slidesToShow: 4,
         slidesToScroll: 1,
-        // autoplay: true,
-        // autoplaySpeed: 400,
+        autoplay: true,
+        autoplaySpeed: 400,
         pauseOnHover: true
     }
     return (
-        <div >
-            <Slider {...settings}>
-                <div>
-                    <img src={Images.LOGO_YEAH1} />
+        <>
+            <div className="partner">
+                <div className="heading partner-head">
+                    <h2 className="heading__title">
+                        Đối tác{" "}
+                        <span>tin dùng</span>
+                    </h2>
                 </div>
-                <div>
-                    <img src={Images.LOGO_VIEON} />
-                </div>
-                <div>
-                    <img src={Images.LOGO_DQ} />
-                </div>
-                <div>
-                    <img src={Images.LOGO_KIOT} />
-                </div>
-                <div>
-                    <img src={Images.LOGO_DONGA} />
-                </div>
+                <Slider {...settings}>
+                    <div className="partner-img">
+                        <img src={Images.LOGO_YEAH1} />
+                    </div>
+                    <div className="partner-img">
+                        <img src={Images.LOGO_VIEON} />
+                    </div>
+                    <div className="partner-img">
+                        <img src={Images.LOGO_DQ} />
+                    </div>
+                    <div className="partner-img">
+                        <img src={Images.LOGO_KIOT} />
+                    </div>
+                    <div className="partner-img">
+                        <img src={Images.LOGO_DONGA} />
+                    </div>
 
-            </Slider>
-        </div>
+                </Slider>
+            </div>
+        </>
     );
 }
 
